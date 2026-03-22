@@ -31,5 +31,7 @@ The model successfully predicts loan status with high precision for approved cas
 Task 3: Customer Churn Prediction
 
 Objective: Identify customers who are likely to leave the bank.
+
 Approach: Cleaned the dataset, applied One-Hot Encoding for categorical features (Geography, Gender), and trained a Decision Tree classifier.
+
 Results and Insights: The model predicted churn with 78.05% accuracy. Feature importance analysis showed that a customer's Age is the primary factor influencing attrition, followed by their Estimated Salary and Account Balance.
