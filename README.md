@@ -1,37 +1,99 @@
 # Data-Science-Analytics-Internship-Tasks
-This repository contains the tasks completed during my Data Science & Analytics internship.
+#  Task 1: Exploring and Visualizing the Iris Dataset
+##  Objective
+Understand how to load, inspect, and visualize a dataset using Python libraries.
+##  Dataset
+* Iris Dataset (available via seaborn or CSV)
+##  Steps Performed
+* Loaded dataset using **pandas**
+* Explored dataset structure:
+ * `.shape`
+ * `.columns`
+ * `.head()`
+* Created visualizations:
+  * Scatter Plot (feature relationships)
+  * Histogram (data distribution)
+  *  Box Plot (outliers & spread)
 
-Task 1: Exploring and Visualizing the Iris Dataset
+##  Tools & Libraries
+* pandas
+* matplotlib
+* seaborn
 
-Objective The goal of this task was to analyze the Iris dataset using Python to understand data distribution and relationships between features.
-Tools Used
-Pandas: For data loading and inspection.
-Matplotlib & Seaborn: For creating professional visualizations.
-Key Methodology
-Loaded the dataset and checked for missing values (None found).
-Analyzed the dataset structure using shape and info commands.
-Created visual charts to identify patterns among species.
-Visual Insights
-Scatter Plot: Showed clear separation between Setosa and other species.
-Histogram: Displayed the frequency of sepal lengths.
-Box Plot: Identified outliers in sepal width across different species.
-Loan Credit Risk Analysis Task
+##  Skills Gained
+* Data loading & inspection
+* Basic data summarization
+* Data visualization techniques
 
-Task 2: Logistic Regression Model
+#  Task 2: Credit Risk Prediction
+##  Objective
+Build a machine learning model to predict whether a loan applicant will **default** or not.
+##  Dataset
+* Loan Prediction Dataset (Kaggle)
+##  Steps Performed
+* Handled missing values:
+ * Mode (categorical)
+ * Mean/Median (numerical)
+* Performed Exploratory Data Analysis (EDA):
 
-In this task, I performed data cleaning and built a machine learning model to predict whether a loan should be approved or rejected.
-Key Highlights:
-Model Used: Logistic Regression
-Accuracy Achieved: 78.86%
-Data Preprocessing: Handled missing values (NaN) and converted categorical features into numeric format.
-Visualization: Created a Confusion Matrix Heatmap to analyze model performance.
-Results:
-The model successfully predicts loan status with high precision for approved cases, as shown in the Confusion Matrix visualization within the notebook.
+  * Loan Amount distribution
+  * Income analysis
+  * Education impact
+* Built classification models:
 
-Task 3: Customer Churn Prediction
+  * Logistic Regression
+  * Decision Tree
+* Evaluated model using:
 
-Objective: Identify customers who are likely to leave the bank.
+  *  Accuracy Score
+  * Confusion Matrix
 
-Approach: Cleaned the dataset, applied One-Hot Encoding for categorical features (Geography, Gender), and trained a Decision Tree classifier.
+## Tools & Libraries
+* pandas
+* matplotlib & seaborn
+* scikit-learn
 
-Results and Insights: The model predicted churn with 78.05% accuracy. Feature importance analysis showed that a customer's Age is the primary factor influencing attrition, followed by their Estimated Salary and Account Balance.
+## Skills Gained
+* Data cleaning & preprocessing
+* Exploratory Data Analysis (EDA)
+* Binary classification modeling
+* Model evaluation techniques
+
+#  Task 3: Customer Churn Prediction
+
+##  Objective
+Identify customers likely to leave (churn) using machine learning.
+
+## Dataset
+* Churn Modelling Dataset (Bank Customers)
+
+##  Steps Performed
+* Data cleaning & preprocessing
+* Encoded categorical variables:
+
+  * Label Encoding
+  * One-Hot Encoding
+* Trained classification model
+* Analyzed feature importance to understand key drivers of churn
+
+##  Key Analysis
+* Identified factors influencing churn such as:
+
+  * Customer balance
+  * Geography
+  * Age
+  * Account activity
+
+##  Tools & Libraries
+* pandas
+* scikit-learn
+* matplotlib & seaborn
+
+##  Skills Gained
+* Categorical data encoding
+* Supervised machine learning
+* Feature importance analysis
+* Business insight generation
+
+
+
