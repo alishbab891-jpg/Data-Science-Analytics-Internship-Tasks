@@ -1,1 +1,33 @@
 # Data-Science-Analytics-Internship-Tasks
+This repository contains the tasks completed during my Data Science & Analytics internship.
+
+Task 1: Exploring and Visualizing the Iris Dataset
+
+Objective The goal of this task was to analyze the Iris dataset using Python to understand data distribution and relationships between features.
+Tools Used
+Pandas: For data loading and inspection.
+Matplotlib & Seaborn: For creating professional visualizations.
+Key Methodology
+Loaded the dataset and checked for missing values (None found).
+Analyzed the dataset structure using shape and info commands.
+Created visual charts to identify patterns among species.
+Visual Insights
+Scatter Plot: Showed clear separation between Setosa and other species.
+Histogram: Displayed the frequency of sepal lengths.
+Box Plot: Identified outliers in sepal width across different species.
+Loan Credit Risk Analysis Task
+
+Task 2: Logistic Regression Model
+In this task, I performed data cleaning and built a machine learning model to predict whether a loan should be approved or rejected.
+Key Highlights:
+Model Used: Logistic Regression
+Accuracy Achieved: 78.86%
+Data Preprocessing: Handled missing values (NaN) and converted categorical features into numeric format.
+Visualization: Created a Confusion Matrix Heatmap to analyze model performance.
+Results:
+The model successfully predicts loan status with high precision for approved cases, as shown in the Confusion Matrix visualization within the notebook.
+
+Task 3: Customer Churn Prediction
+Objective: Identify customers who are likely to leave the bank.
+Approach: Cleaned the dataset, applied One-Hot Encoding for categorical features (Geography, Gender), and trained a Decision Tree classifier.
+Results and Insights: The model predicted churn with 78.05% accuracy. Feature importance analysis showed that a customer's Age is the primary factor influencing attrition, followed by their Estimated Salary and Account Balance.
